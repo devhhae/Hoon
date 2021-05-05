@@ -14,7 +14,7 @@ Client/[Mm]emoryCaptures/
 
 ## Server.Main
 Server/Main/obj
-
+Server/Shared/obj
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta

@@ -1,0 +1,10 @@
+{
+	"name": "ProjectHoon",
+	"dockerFile": "../Dockerfile",
+	"extensions": [
+		"fernandoescolar.vscode-solution-explorer",
+		"ms-dotnettools.csharp",
+		"natqe.reload"
+	],
+	"postStartCommand" : "dotnet restore"
+}
