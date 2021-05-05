@@ -2,6 +2,8 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
+
+## Client 
 Client/[Ll]ibrary/
 Client/[Tt]emp/
 Client/[Oo]bj/
@@ -9,6 +11,10 @@ Client/[Bb]uild/
 Client/[Bb]uilds/
 Client/[Ll]ogs/
 Client/[Mm]emoryCaptures/
+
+## Server.Main
+Server/Main/obj
+
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
