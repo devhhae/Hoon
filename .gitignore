@@ -11,10 +11,16 @@ Client/[Bb]uild/
 Client/[Bb]uilds/
 Client/[Ll]ogs/
 Client/[Mm]emoryCaptures/
+Client/.vscode
 
 ## Server.Main
 Server/Main/obj
+Server/Main/bin
 Server/Shared/obj
+Server/Shared/bin
+Server/.vscode
+obj/
+Server/DbFile/MyDb.db
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta

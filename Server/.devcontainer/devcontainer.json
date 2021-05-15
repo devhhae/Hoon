@@ -4,7 +4,9 @@
 	"extensions": [
 		"fernandoescolar.vscode-solution-explorer",
 		"ms-dotnettools.csharp",
-		"natqe.reload"
+		"natqe.reload",
+		"alexcvzz.vscode-sqlite"
 	],
+	"mounts": ["source=${localWorkspaceFolder}/../Client/Assets/Scripts/Shared,target=/workspaces/Hoon/Server/Shared/Sources,type=bind,consistency=cached"],
 	"postStartCommand" : "dotnet restore"
 }
