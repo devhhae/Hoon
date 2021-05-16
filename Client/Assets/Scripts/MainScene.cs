@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using Grpc.Core;
 
 public class MainScene : MonoBehaviour
@@ -18,6 +16,7 @@ public class MainScene : MonoBehaviour
         {
             m_Channel = new Channel("localhost", 5000, ChannelCredentials.Insecure);
             m_Channel.ConnectAsync();
+
         }
         catch (System.Exception e)
         {
